@@ -15,6 +15,16 @@
 		044481821EFA40AC00A05D15 /* Ios_Space_shooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044481811EFA40AC00A05D15 /* Ios_Space_shooterTests.swift */; };
 		0444818D1EFA40AC00A05D15 /* Ios_Space_shooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444818C1EFA40AC00A05D15 /* Ios_Space_shooterUITests.swift */; };
 		0444819B1EFA415700A05D15 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444819A1EFA415700A05D15 /* mainMenu.swift */; };
+		044481A71EFA473F00A05D15 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0444819F1EFA473F00A05D15 /* 1.png */; };
+		044481A81EFA473F00A05D15 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A01EFA473F00A05D15 /* 2.png */; };
+		044481A91EFA473F00A05D15 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A11EFA473F00A05D15 /* 3.png */; };
+		044481AA1EFA473F00A05D15 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A21EFA473F00A05D15 /* 4.png */; };
+		044481AB1EFA473F00A05D15 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A31EFA473F00A05D15 /* 5.png */; };
+		044481AC1EFA473F00A05D15 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A41EFA473F00A05D15 /* 6.png */; };
+		044481AD1EFA473F00A05D15 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A51EFA473F00A05D15 /* 7.png */; };
+		044481AE1EFA473F00A05D15 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 044481A61EFA473F00A05D15 /* 8.png */; };
+		044481B01EFA478E00A05D15 /* gameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044481AF1EFA478E00A05D15 /* gameScene.swift */; };
+		044481B21EFA4ADF00A05D15 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 044481B11EFA4ADF00A05D15 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		0444818C1EFA40AC00A05D15 /* Ios_Space_shooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ios_Space_shooterUITests.swift; sourceTree = "<group>"; };
 		0444818E1EFA40AC00A05D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0444819A1EFA415700A05D15 /* mainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainMenu.swift; path = ../mainMenu.swift; sourceTree = "<group>"; };
+		0444819F1EFA473F00A05D15 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		044481A01EFA473F00A05D15 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		044481A11EFA473F00A05D15 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		044481A21EFA473F00A05D15 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		044481A31EFA473F00A05D15 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		044481A41EFA473F00A05D15 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		044481A51EFA473F00A05D15 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		044481A61EFA473F00A05D15 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		044481AF1EFA478E00A05D15 /* gameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gameScene.swift; path = AnimationSpaceship/gameScene.swift; sourceTree = "<group>"; };
+		044481B11EFA4ADF00A05D15 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,13 @@
 		044481651EFA40AC00A05D15 /* Ios Space shooter */ = {
 			isa = PBXGroup;
 			children = (
+				0444819E1EFA473F00A05D15 /* AnimationSpaceship */,
 				0444819A1EFA415700A05D15 /* mainMenu.swift */,
+				044481AF1EFA478E00A05D15 /* gameScene.swift */,
 				044481661EFA40AC00A05D15 /* AppDelegate.swift */,
 				0444816E1EFA40AC00A05D15 /* GameViewController.swift */,
 				044481701EFA40AC00A05D15 /* Main.storyboard */,
+				044481B11EFA4ADF00A05D15 /* background.jpg */,
 				044481731EFA40AC00A05D15 /* Assets.xcassets */,
 				044481751EFA40AC00A05D15 /* LaunchScreen.storyboard */,
 				044481781EFA40AC00A05D15 /* Info.plist */,
@@ -126,6 +149,21 @@
 				0444818E1EFA40AC00A05D15 /* Info.plist */,
 			);
 			path = "Ios Space shooterUITests";
+			sourceTree = "<group>";
+		};
+		0444819E1EFA473F00A05D15 /* AnimationSpaceship */ = {
+			isa = PBXGroup;
+			children = (
+				0444819F1EFA473F00A05D15 /* 1.png */,
+				044481A01EFA473F00A05D15 /* 2.png */,
+				044481A11EFA473F00A05D15 /* 3.png */,
+				044481A21EFA473F00A05D15 /* 4.png */,
+				044481A31EFA473F00A05D15 /* 5.png */,
+				044481A41EFA473F00A05D15 /* 6.png */,
+				044481A51EFA473F00A05D15 /* 7.png */,
+				044481A61EFA473F00A05D15 /* 8.png */,
+			);
+			path = AnimationSpaceship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044481AE1EFA473F00A05D15 /* 8.png in Resources */,
 				044481721EFA40AC00A05D15 /* Main.storyboard in Resources */,
+				044481AA1EFA473F00A05D15 /* 4.png in Resources */,
+				044481A71EFA473F00A05D15 /* 1.png in Resources */,
+				044481AC1EFA473F00A05D15 /* 6.png in Resources */,
+				044481A81EFA473F00A05D15 /* 2.png in Resources */,
+				044481A91EFA473F00A05D15 /* 3.png in Resources */,
+				044481AB1EFA473F00A05D15 /* 5.png in Resources */,
+				044481AD1EFA473F00A05D15 /* 7.png in Resources */,
+				044481B21EFA4ADF00A05D15 /* background.jpg in Resources */,
 				044481741EFA40AC00A05D15 /* Assets.xcassets in Resources */,
 				044481771EFA40AC00A05D15 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -264,6 +311,7 @@
 			files = (
 				0444819B1EFA415700A05D15 /* mainMenu.swift in Sources */,
 				0444816F1EFA40AC00A05D15 /* GameViewController.swift in Sources */,
+				044481B01EFA478E00A05D15 /* gameScene.swift in Sources */,
 				044481671EFA40AC00A05D15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

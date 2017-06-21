@@ -24,4 +24,14 @@ class MainMenu: SKScene {
         self.addChild(playBanner)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let locationUser = touch.location(in: self)
+            if atPoint(locationUser) == playButton{
+                let gameScene = GameScene(size: self.size)
+                let transition = SKTransition.doorsCloseHorizontal(withDuration: 0.5)
+                self.view?.presentScene(gameScene, transition: transition)
+            }
+        }
+    }
 }
